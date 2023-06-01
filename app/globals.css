@@ -1,0 +1,207 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  margin-top: 120px;
+}
+
+.nav-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  border-bottom: 1px solid greenyellow;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  padding: 1rem;
+  margin-bottom: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.links a {
+  margin: 0 0.5rem 0 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.about {
+  text-align: center;
+  font-size: 40px;
+}
+
+.intro {
+  font-size: 21px;
+}
+
+.home-container {
+  border-radius: 15px;
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+  text-align: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.home-top {
+  min-height: 400px;
+  background-image: url('imgs/bg3.png');
+}
+
+.home-mission {
+  background-image: url('imgs/bg2.png');
+}
+
+.home-mission::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.63);
+  z-index: 1;
+  border-radius: 15px;
+}
+
+.mission {
+  z-index: 2;
+}
+
+.missionpoints {
+  font-size: 17px;
+}
+
+.cards {
+  display: flex;
+}
+
+.card-img {
+  width: 180px;
+  height: auto;
+}
+
+.card {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bottom {
+  background-color: rgb(56, 56, 56);
+  width: 100%;
+  position: absolute;
+  left: 0;
+  height: fit-content;
+  padding: 20px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.contact-links {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
+}
+
+.contact-links a {
+  color: white;
+  font-size: 30px;
+}
+
+.cpage {
+  color: white;
+}
+
+@media (max-width: 700px) {
+  .cards {
+    flex-direction: column;
+  }
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.p-card {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.projectimg {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.p-overlay {
+  position: absolute;
+  color: white;
+  width: 150px;
+  height: 80px;
+  font-size: 26px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000c4;
+  cursor: pointer;
+  text-decoration: none;
+}
