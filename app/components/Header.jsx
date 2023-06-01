@@ -9,11 +9,6 @@ const Header = () => {
             <div className='logo'>
                 <Link href='/'>Volt Tech <FaBolt style={{color: 'greenyellow'}} /></Link>
             </div>
-            <div className='links'>
-                <Link href='/'>Home</Link>
-                <Link href='/projects'>Projects</Link>
-                <Link href='/contact'>Contact</Link>
-            </div>
         </div>
     </header>
   )
