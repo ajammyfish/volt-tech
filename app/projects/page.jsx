@@ -18,19 +18,19 @@ const AboutPage = () => {
         <div className="projects">
           <div className="p-card">
             <a className="p-overlay" href="https://windowcleaningdorset.netlify.app/" target='_blank'>View Site</a>
-            <Image className='projectimg' src={jdpc} />
+            <Image className='projectimg' src={jdpc} alt="jd pro-clean" />
             </div>
           <div className="p-card">
             <a className="p-overlay" href="https://jamesfisherwebdev.netlify.app/" target='_blank'>View Site</a>
-            <Image className='projectimg' src={jfwd} />
+            <Image className='projectimg' src={jfwd} alt="jf web dev" />
           </div>
           <div className="p-card">
             <a className="p-overlay" href="https://jamesfisherwebdev.netlify.app/" target='_blank'>View Site</a>
-            <Image className='projectimg' src={planner} />
+            <Image className='projectimg' src={planner} alt='planner' />
           </div>
           <div className="p-card">
             <a className="p-overlay" href="https://ajammyfish.github.io/iasip/" target='_blank'>View Site</a>
-            <Image className='projectimg' src={ias} />
+            <Image className='projectimg' src={ias} alt='iasip' />
           </div>
         </div>
         <Footer />
